@@ -1,0 +1,13 @@
+# NodeJS
+coverage/
+
+# DOC
+doc/
+README.md
+
+# CI/CD
+.travis.yml
+.releaserc
+.npmrc
+.gitignore
+.npmignore

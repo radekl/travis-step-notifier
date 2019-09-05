@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "8"
+
+cache: npm
+
+jobs:
+  include:
+    - stage: Test
+      env:
+        - NODE_ENV=test
+      script:
+        - npm run lint
+        - npm run test
+
+    - stage: Release
+      if: (branch = master OR branch = beta) AND type = push AND fork = false
+      node_js: "8"
+      env:
+        # GH_TOKEN
+        - "GH_TOKEN=false"
+      script: npm run semantic-release
