@@ -18,5 +18,8 @@ jobs:
       node_js: "8"
       env:
         # GH_TOKEN
-        - "GH_TOKEN=false"
+        - secure: "mr99cblSHyvoCw9E4EbLzHsFpaGb3cSrviwBfO1xQS1oJjq/LoM+J1OUYFq5jIDCnPG0JrOSma/+SGFz0jwnrMy7+t5atgmyoa4KGpkiT9cWcVUdV3zH+oaMs+a/kTwpFPSqP/6/tIqgsn2pLb8JOer74ZdDnr/pY2iR+dyTmF4mUu1OgS1cGDJYTP9jpllNdeRfSQF8Ie+Np9mNK+F880vCtPWkDKEo2A7/7tlfNe6OJP5l1KPx/GG/61Euyi4vXyTFAK2yhTPq+5z7qwN/2TLV/CN1fYTuS/75aWw2IBfK99PG+x2MQG3jI2qWxQKQuCRCs4NRsvuX6fzBg1IfOi2m4Rg1SrMxhDF9obbcnjLFgih8CRfV0dblgBcp2gZssM4reU+738N14WWLj8jZF0hIzQpsofXS7Kwzcf26O3fk7KspR/Mp63sgfLQPtShwyVX3dI9c9MbN46cviM/u8357AinigYnTwPBbR4pAguEr+obVgfPTCER0fHNVepwYh7teIu0MpSPNzpYZ4rEqjdKo+/02H4Hlb2AhV09EghhbmL7zzJUB6gnyDC53pqLlmziK0xZMyMouVgy0FwRkiQbJ5Z/ddGgz8FpJmepYCQDz1X8MW09mHb2QDdYIMRsXm1sEP4uPZIvH6sZfkGzi8odwKqEXcUV0TYFdqMIV/oM="
       script: npm run semantic-release
+      deploy:
+        - provider: script
+          script: npm publish
