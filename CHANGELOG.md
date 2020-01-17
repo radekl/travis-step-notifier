@@ -1,5 +1,17 @@
 # Travis Step Notifier Changelog
 
+# [1.0.0-beta.4](https://github.com/radekl/travis-step-notifier/compare/v1.0.0-beta.3@beta...v1.0.0-beta.4@beta) (2020-01-17)
+
+
+### Features
+
+* Changed payload fields ([722b68f](https://github.com/radekl/travis-step-notifier/commit/722b68f9f5a0aa110a35d27ec681452b9bcc59cf))
+
+
+### BREAKING CHANGES
+
+* new field names to adjust to travis payload
+
 # [1.0.0-beta.3](https://github.com/radekl/travis-step-notifier/compare/v1.0.0-beta.2@beta...v1.0.0-beta.3@beta) (2020-01-16)
 
 
