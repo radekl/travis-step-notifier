@@ -1,5 +1,24 @@
 # Travis Step Notifier Changelog
 
+# 1.0.0 (2020-01-23)
+
+
+### Bug Fixes
+
+* **url.js:** fixed wrong parameter pass ([dd4aa20](https://github.com/radekl/travis-step-notifier/commit/dd4aa20bcba6130b61bf327f42154c1eefb944d8))
+* updated dependencies ([3818652](https://github.com/radekl/travis-step-notifier/commit/3818652e6bb23eb6d5fec6d48e3c9f7cef4d6ba0))
+
+
+### Features
+
+* Changed payload fields ([722b68f](https://github.com/radekl/travis-step-notifier/commit/722b68f9f5a0aa110a35d27ec681452b9bcc59cf))
+* init project with webhook URL ([df1adad](https://github.com/radekl/travis-step-notifier/commit/df1adad303cdce5a0b4b2e3b6d48a18d32cfc9d0))
+
+
+### BREAKING CHANGES
+
+* new field names to adjust to travis payload
+
 # [1.0.0-beta.4](https://github.com/radekl/travis-step-notifier/compare/v1.0.0-beta.3@beta...v1.0.0-beta.4@beta) (2020-01-17)
 
 
