@@ -1,5 +1,12 @@
 # Travis Step Notifier Changelog
 
+# [1.1.0](https://github.com/radekl/travis-step-notifier/compare/v1.0.0...v1.1.0) (2020-07-02)
+
+
+### Features
+
+* added custom fields and error handling ([e2f8cbb](https://github.com/radekl/travis-step-notifier/commit/e2f8cbb4451a37ab5e5c7847ee6e22bf1f754411))
+
 # 1.0.0 (2020-01-23)
 
 
