@@ -1,5 +1,12 @@
 # Travis Step Notifier Changelog
 
+# [1.2.0](https://github.com/radekl/travis-step-notifier/compare/v1.1.0...v1.2.0) (2021-06-10)
+
+
+### Features
+
+* added new parameter headers to add custom headers to requests ([5fc86b5](https://github.com/radekl/travis-step-notifier/commit/5fc86b555018beb34ed1578ae54286b43a100d6d))
+
 # [1.1.0](https://github.com/radekl/travis-step-notifier/compare/v1.0.0...v1.1.0) (2020-07-02)
 
 
