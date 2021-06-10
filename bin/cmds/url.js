@@ -14,5 +14,9 @@ exports.builder = {
       To have a field named "my_message" use --custom.my_message=message`,
     type: 'object',
   },
+  header: {
+    description: 'add a custom header to a request --header.x-some-header=value',
+    type: 'object',
+  },
 };
-exports.handler = async ({ url, custom }) => urlLib.run(url, custom);
+exports.handler = async ({ url, custom, header }) => urlLib.run(url, custom, header);
