@@ -47,12 +47,6 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook",
-      "pre-push": "npm run lint && npm run test"
-    }
-  },
   "dependencies": {
     "axios": "0.24.0",
     "winston": "3.3.3",
