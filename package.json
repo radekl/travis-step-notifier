@@ -55,7 +55,7 @@
     }
   },
   "dependencies": {
-    "axios": "0.21.1",
+    "axios": "0.21.2",
     "winston": "3.2.1",
     "yargs": "13.2.2"
   }
