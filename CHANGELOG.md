@@ -1,5 +1,12 @@
 # Travis Step Notifier Changelog
 
+## [1.2.1](https://github.com/radekl/travis-step-notifier/compare/v1.2.0...v1.2.1) (2021-11-09)
+
+
+### Bug Fixes
+
+* **deps:** updated dependencies (build trigger) ([62c2caf](https://github.com/radekl/travis-step-notifier/commit/62c2cafe249bcffac28369025707266f84e615dd))
+
 ## [1.2.1-beta.1](https://github.com/radekl/travis-step-notifier/compare/v1.2.0...v1.2.1-beta.1) (2021-11-09)
 
 
