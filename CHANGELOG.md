@@ -1,5 +1,14 @@
 # Travis Step Notifier Changelog
 
+## [1.2.1-beta.1](https://github.com/radekl/travis-step-notifier/compare/v1.2.0...v1.2.1-beta.1) (2021-11-09)
+
+
+### Bug Fixes
+
+* excesive steps removed ([c1c8033](https://github.com/radekl/travis-step-notifier/commit/c1c80336d1defab1cb4b88e5971837f935c3fe43))
+* typo-fix ([01eda5e](https://github.com/radekl/travis-step-notifier/commit/01eda5e4b5ce6704d58e580b3c5316d3abc8711a))
+* unsupported node version downgrade ([595209f](https://github.com/radekl/travis-step-notifier/commit/595209f0e1171b8618853a2a5a4eda0b45958880))
+
 # [1.2.0](https://github.com/radekl/travis-step-notifier/compare/v1.1.0...v1.2.0) (2021-06-10)
 
 
