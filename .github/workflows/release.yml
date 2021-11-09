@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: npx ci
       - name: Lint
-        run: npm run lint-fix
+        run: npm run lint:fix
       - name: Test
         run: npm run test
       - name: Build
