@@ -1,5 +1,12 @@
 # Travis Step Notifier Changelog
 
+## [1.2.2](https://github.com/radekl/travis-step-notifier/compare/v1.2.1...v1.2.2) (2022-07-12)
+
+
+### Bug Fixes
+
+* dependency updates, added badge to README ([8a3a2e3](https://github.com/radekl/travis-step-notifier/commit/8a3a2e39cbe9dfd9d4ff4caacd510847825173b0))
+
 ## [1.2.1](https://github.com/radekl/travis-step-notifier/compare/v1.2.0...v1.2.1) (2021-11-09)
 
 
