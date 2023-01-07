@@ -31,7 +31,7 @@
     "@semantic-release/github": "8.0.2",
     "@semantic-release/npm": "8.0.3",
     "@semantic-release/release-notes-generator": "10.0.2",
-    "commitizen": "4.2.4",
+    "commitizen": "4.2.6",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "5.15.3",
     "eslint-config-airbnb-base": "13.1.0",
